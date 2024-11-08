@@ -149,9 +149,6 @@ tr:nth-child(even) {
 }
 
 
-
-
-
 /* Athlete card styling */
 .athlete {
     display: inline-grid;
@@ -247,9 +244,9 @@ tr:nth-child(even) {
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-#gallery img:nth-child(n+6) {
+/* #gallery img:nth-child(n+6) {
     display: none;
-}
+} */
 
 /* Footer styling */
 footer {
@@ -280,7 +277,7 @@ tr:hover {
 
 @media (prefers-color-scheme: light) {
     body {
-        color: #333333;
+        color: #071952;
         background-color: #e4e5f1;
     }
 
@@ -297,7 +294,7 @@ tr:hover {
     }
 
     a:visited {
-        color: #0384cf;
+        color: #006DAC;
     }
 
     header h2 {
@@ -309,16 +306,19 @@ tr:hover {
     }
 
     th {
-        background-color: #a2afb8;
-        color: #333333;
+        background-color: rgb(43, 76, 111);
+        color: #fefefe;
     }
 
     tr:nth-child(even) {
         background-color: #a6bbc7;
     }
+    tr:nth-child(odd) {
+        background-color: #e0e7ed; 
+    }
 
     .athlete {
-        background-color: #a6bbc7;
+        background-color: #e0e7ed;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     }
 
