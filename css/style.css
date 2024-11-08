@@ -292,6 +292,9 @@ tr:hover {
     nav a:hover {
         background-color: white;
     }
+    a{
+        color:#040a7a
+    }
 
     a:visited {
         color: #006DAC;
