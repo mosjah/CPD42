@@ -292,8 +292,8 @@ tr:hover {
     nav a:hover {
         background-color: white;
     }
-    a{
-        color:#040a7a
+    a {
+        color: #071952; /* Replace with a darker color as desired */
     }
 
     a:visited {
