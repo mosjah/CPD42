@@ -325,6 +325,7 @@ tr:hover {
     .athlete:hover {
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
     }
+    
 
     .athlete dt, .athlete dd {
         color: #333333;
@@ -335,7 +336,107 @@ tr:hover {
         color: #333333;
     }
 }
+/* Tablet View Adjustments */
+@media (min-width: 768px) {
+    body {
+        padding: 30px;
+    }
 
+    nav ul {
+        gap: 30px;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        padding: 12px 18px;
+    }
+
+    header h1 a {
+        font-size: 2.25rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 30px;
+    }
+    #summary {
+        font-size: 1.2rem; /* Larger font size for tablets */
+    }
+
+    .athlete {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 5px; /* Adds horizontal gap on larger screens */
+        margin: 0 10px 20px 10px; /* Space between cards */
+        box-sizing: border-box;
+    }
+
+    .athlete-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #gallery img {
+        width: 220px;
+    }
+}
+/* Desktop View Adjustments */
+@media (min-width: 1000px) {
+    body {
+        padding: 40px;
+    }
+
+    nav ul {
+        gap: 40px;
+    }
+
+    nav a {
+        font-size: 1.4rem;
+        padding: 15px 20px;
+    }
+
+    header h1 a {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 1.75rem;
+    }
+
+    main {
+        padding: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #summary {
+        font-size: 1.5rem; /* Even larger font size for desktops */
+    }
+
+    .athlete {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 5px; /* Adds horizontal gap on larger screens */
+        margin: 0 10px 20px 10px; /* Space between cards */
+        box-sizing: border-box;
+    }
+
+    .athlete-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+
+    #gallery img {
+        width: 240px;
+    }
+}
 .flashbox {
     display: none; /* Hidden by default */
     position: fixed;
