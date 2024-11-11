@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #7AB2D3;
+    background-color: white;
     border-radius: 5px;
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -111,7 +111,7 @@ li {
 
 #summary .athlete {
     display: inline;
-    background-color: transparent; /* or any other color you prefer */
+    background-color: transparent; 
     margin-bottom: 0; /* Adjust as necessary */
     padding: 0; /* Adjust as necessary */
     box-shadow: none; /* Remove shadow */
